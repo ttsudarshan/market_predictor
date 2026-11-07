@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "backend", "backend", "{7F209439-2321-458B-804D-1E3A18AE2EF3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaperTrading.Api", "backend\PaperTrading.Api\PaperTrading.Api.csproj", "{F8E12B48-5706-4E46-B4E3-8E750BFC6742}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaperTrading.Tests", "backend\PaperTrading.Tests\PaperTrading.Tests.csproj", "{CE68285F-2AFB-4686-81C4-86E035EBB620}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F8E12B48-5706-4E46-B4E3-8E750BFC6742}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8E12B48-5706-4E46-B4E3-8E750BFC6742}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8E12B48-5706-4E46-B4E3-8E750BFC6742}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8E12B48-5706-4E46-B4E3-8E750BFC6742}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE68285F-2AFB-4686-81C4-86E035EBB620}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE68285F-2AFB-4686-81C4-86E035EBB620}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE68285F-2AFB-4686-81C4-86E035EBB620}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE68285F-2AFB-4686-81C4-86E035EBB620}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F8E12B48-5706-4E46-B4E3-8E750BFC6742} = {7F209439-2321-458B-804D-1E3A18AE2EF3}
+		{CE68285F-2AFB-4686-81C4-86E035EBB620} = {7F209439-2321-458B-804D-1E3A18AE2EF3}
+	EndGlobalSection
+EndGlobal
